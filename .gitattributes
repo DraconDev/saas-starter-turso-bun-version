@@ -1,0 +1,34 @@
+# --- BEGIN DRACON MANAGED BLOCK ---
+# managed by dracon-warden
+*.age filter=dracon diff=dracon merge=dracon
+*.env filter=dracon diff=dracon merge=dracon
+*.key filter=dracon diff=dracon merge=dracon
+*.pem filter=dracon diff=dracon merge=dracon
+.cargo/config.toml filter=dracon diff=dracon merge=dracon
+.env filter=dracon diff=dracon merge=dracon
+.env.* filter=dracon diff=dracon merge=dracon
+config.json filter=dracon diff=dracon merge=dracon
+config/licenses.json filter=dracon diff=dracon merge=dracon
+config/licenses.test.json filter=dracon diff=dracon merge=dracon
+config/services.json filter=dracon diff=dracon merge=dracon
+config/services.test.json filter=dracon diff=dracon merge=dracon
+plan/pages/snapshots/*.json filter=dracon diff=dracon merge=dracon
+plan/pages/templates/*.json filter=dracon diff=dracon merge=dracon
+secrets/** filter=dracon diff=dracon merge=dracon
+test_secret.txt filter=dracon diff=dracon merge=dracon
+*.events.jsonl -filter
+*.pub -filter
+.dracon/data/ -filter
+.dracon/data/keys/ -filter
+.dracon/data/keys/*.pub -filter
+.dracon/keys/*.pub -filter
+Cargo.lock -filter
+Cargo.toml -filter
+clippy.toml -filter
+deny.toml -filter
+events.jsonl -filter
+flake.lock -filter
+flake.nix -filter
+rust-toolchain.toml -filter
+rustfmt.toml -filter
+# --- END DRACON MANAGED BLOCK ---
